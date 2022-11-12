@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {withRouter, Link, Redirect} from 'react-router-dom'
+import {withRouter, Link} from 'react-router-dom'
 
 import {HiOutlineSearch} from 'react-icons/hi'
 import './index.css'
@@ -35,8 +35,6 @@ class Header extends Component {
     onChangeSearchKey(event.target.value)
   }
 
-
-
   onclickSearch = () => {
     const {onClickSearchButton} = this.props
     onClickSearchButton()
@@ -68,18 +66,18 @@ class Header extends Component {
       )
     }
     return (
- <Link to="/search" className="link-item">
-        <button
-          type="button"
-          className="not-serch-container"
-          testid="searchButton"
-        >
+      <button
+        type="button"
+        className="not-serch-container"
+        testid="searchButton"
+      >
+        <Link to="/search" className="link-item">
           <HiOutlineSearch
-            
+            onClick={this.onClickSearchBtn}
             className="seach-icon"
           />
-        </button>
-      </Link>
+        </Link>
+      </button>
     )
   }
 
@@ -114,7 +112,7 @@ class Header extends Component {
                         : 'nav-link-item'
                     return (
                       <li className="header-list-item" key={id}>
-                        <Link to={linkRoute} className="link-item">
+                        <Link to={linkRoute} className={actived}>
                           <p className={actived}>{displayText}</p>
                         </Link>
                       </li>
