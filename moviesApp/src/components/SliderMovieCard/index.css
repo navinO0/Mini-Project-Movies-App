@@ -1,0 +1,22 @@
+.slider-popular-card-image {
+  height: 35vh;
+  width: 15vw;
+  flex-shrink: 0;
+  border-radius: 8px;
+  list-style: none;
+}
+.slider-popular-movie-card-container {
+  padding: 10px;
+  list-style: none;
+}
+@media screen and (max-width: 576px) {
+  .slider-popular-card-image {
+    height: 28vh;
+    width: 26vw;
+    flex-grow: 1;
+    border-radius: 8px;
+  }
+  .slider-popular-movie-card-container {
+    padding: 5px;
+  }
+}

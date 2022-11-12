@@ -1,0 +1,251 @@
+.home-main-container {
+  height: auto;
+  background-color: #181818;
+}
+.movie-banner-home {
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.home-banner-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 62px;
+
+  color: #ffffff;
+}
+.home-banner-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+.home-banner-button {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #171f46;
+  align-self: flex-start;
+}
+.home-banner-content-container {
+  margin-left: 150px;
+}
+.carausal-container {
+  padding: 0px;
+  width: 80%;
+  height: auto;
+}
+
+.movies-section-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+
+  width: 80%;
+}
+.movies-sections-container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-content-super-container {
+  width: 80%;
+
+  align-items: flex-start;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.banner-content-container {
+  width: 500px;
+  min-height: 270px;
+}
+
+.home-banner-content-super-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: flex-end;
+
+  margin-top: auto;
+  margin-bottom: 70px;
+}
+.banner-content-container {
+  width: 500px;
+  min-height: 270px;
+
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-movie-item-details-banner-movie-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+
+  color: #e2e8f0;
+  margin-bottom: 0px;
+}
+
+.home-movie-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 0px;
+  color: #e2e8f0;
+}
+.home-play-banner-container {
+  width: 74px;
+  height: 30px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  .carausal-container {
+    width: 85%;
+    height: auto;
+  }
+  .movies-section-title {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+    width: 90%;
+  }
+  .movie-banner-home {
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .home-movie-item-details-banner-movie-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #e2e8f0;
+    margin-bottom: 0px;
+  }
+
+  .home-movie-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 0px;
+    color: #e2e8f0;
+  }
+  .home-play-banner-container {
+    width: 74px;
+    height: 30px;
+
+    background: #ffffff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 40px;
+  }
+
+  .banner-content-container {
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+  }
+
+  .home-banner-content-super-container {
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    align-items: flex-end;
+
+    margin-top: auto;
+    margin-bottom: 70px;
+  }
+}
+
+.try-again-text {
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.home-react-loader-super-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.home-failure-view-main-container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.failure-view-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-view-image {
+  height: 250px;
+}
+.try-again-text {
+  color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 17px;
+}
+.try-again-button {
+  width: 74px;
+  height: 30px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+.coution-image {
+  height: 40px;
+}

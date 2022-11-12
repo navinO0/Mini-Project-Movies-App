@@ -1,0 +1,31 @@
+.footer-main-container {
+  display: flex;
+  justify-content: center;
+  background-color: #181818;
+  margin-top: 50px;
+  padding: 30px;
+  margin-bottom: 0px;
+  margin-top: auto;
+  justify-self: flex-end;
+}
+.footer-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-icons-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 110px;
+}
+.contact-us-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.footer-icons {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+}

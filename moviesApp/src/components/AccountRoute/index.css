@@ -1,0 +1,81 @@
+.profile-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #181818;
+}
+.profile-card-container {
+  background-color: #e5e5e5;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+.profile-sub-card-container {
+  width: 80%;
+}
+.membership-container {
+  display: flex;
+  flex-direction: column;
+}
+.user-name-pass-container {
+  display: flex;
+  border-bottom: solid #cbd5e1 1px;
+  height: 100px;
+}
+.username-pass-content-container {
+}
+.user-name-pass-container {
+}
+.membership-container {
+}
+.username-pass-content-container {
+}
+.Account-main-heading {
+  border-bottom: solid #cbd5e1 1px;
+  padding-bottom: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.category-titles {
+  width: 150px;
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.details-text-pass {
+  color: #64748b;
+  font-family: 'Roboto';
+}
+.details-text {
+  font-family: 'Roboto';
+}
+.plan-span {
+  border: solid #000000 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.logout-button {
+  font-family: 'Roboto';
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 13px;
+  color: #ffffff;
+  height: 30px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background: #e50914;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.plan-dets {
+  display: flex;
+  align-items: center;
+}
