@@ -65,6 +65,7 @@ class HomeRoute extends Component {
 
   failureView = () => (
     <>
+      <Header />
       <div className="home-failure-view-main-container">
         <div className="failure-view-card-container">
           <img
@@ -89,6 +90,7 @@ class HomeRoute extends Component {
 
   renderLoaderView = () => (
     <>
+      <Header />
       <div className="home-react-loader-super-container">
         <div className="loader-container" testid="loader">
           <Loader type="TailSpin" color="#D81F26" height={50} width={50} />
@@ -181,4 +183,5 @@ class HomeRoute extends Component {
 }
 
 export default HomeRoute
+
 
