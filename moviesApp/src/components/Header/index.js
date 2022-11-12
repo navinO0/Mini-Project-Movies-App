@@ -35,9 +35,7 @@ class Header extends Component {
     onChangeSearchKey(event.target.value)
   }
 
-  onClickSearchBtn = () => {
-    ;<Redirect to="/search" />
-  }
+
 
   onclickSearch = () => {
     const {onClickSearchButton} = this.props
@@ -70,16 +68,18 @@ class Header extends Component {
       )
     }
     return (
-      <button
-        type="button"
-        className="not-serch-container"
-        testid="searchButton"
-      >
-        <HiOutlineSearch
-          onClick={this.onClickSearchBtn}
-          className="seach-icon"
-        />
-      </button>
+ <Link to="/search" className="link-item">
+        <button
+          type="button"
+          className="not-serch-container"
+          testid="searchButton"
+        >
+          <HiOutlineSearch
+            
+            className="seach-icon"
+          />
+        </button>
+      </Link>
     )
   }
 
